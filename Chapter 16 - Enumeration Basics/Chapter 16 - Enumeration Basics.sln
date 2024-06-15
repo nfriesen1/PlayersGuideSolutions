@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 16 - Enumeration Basics", "Chapter 16 - Enumeration Basics\Chapter 16 - Enumeration Basics.csproj", "{72EF2797-EB9D-4028-8FAB-0ACB3F1742C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72EF2797-EB9D-4028-8FAB-0ACB3F1742C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EF2797-EB9D-4028-8FAB-0ACB3F1742C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EF2797-EB9D-4028-8FAB-0ACB3F1742C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EF2797-EB9D-4028-8FAB-0ACB3F1742C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B61935E1-BB54-48D5-B917-B1BA16370765}
+	EndGlobalSection
+EndGlobal
