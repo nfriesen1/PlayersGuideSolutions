@@ -9,7 +9,11 @@ namespace Password_Validator
     internal class PasswordValidator
     {
         private readonly string _password;
-        private (bool containsUppercase, bool containsLowercase, bool containsNumber, bool containsValidCharacters) _restrictions;
+        private (
+            bool containsUppercase, 
+            bool containsLowercase, 
+            bool containsNumber,
+            bool containsValidCharacters) _restrictions;
 
         public PasswordValidator(string password)
         {
@@ -19,7 +23,7 @@ namespace Password_Validator
 
         public bool Validate()
         {
-            if (_password == null || _password.Length == 0)
+            if (_password == null || _password.Length < 6 || _password.Length >= 13)
             {
                 return false;
             }
@@ -47,12 +51,6 @@ namespace Password_Validator
             }
             return false;
         }
-
-        private static string InvalidPasswordReason()
-        {
-
-        }
-
 
     }
 }
